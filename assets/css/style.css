@@ -10,93 +10,23 @@ body {
 
 }
 
-.search-field input {
-    border-color: #1461a9;
-}
-
-.main-nav-bg-color {
-    background-color: #FDFEFE;
-    border-top-color: white;
-    border-right-color: white;
-    border-bottom-color: black;
-}
-
-.list-bg-color {
-    text-align: center;
-}
-
-.list-inline li span {
-    color: black;
-}
-
-.burger-icon {
-    color: black;
-}
-/*..................................................................................End ColorsE*/
-
-/*...................................................................................Search field*/
-
-.navbar .navbar-8 .navbar-toggler-icon {
-    background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0');
-}
-
-/*...................................................................................End Search field*/
-
-/*...................................................................................Navigation*/
-
-.main-nav-bx {
-    width:100%;
-    text-align: left;
-}
-
-.hover-transition-effect {
-    background: transparent;
-    -webkit-transition: width 2s;
-    transition: width 2s;
-    transition-timing-function: ease-in-out;
-    height: 2px;
-}
-
-.hover-transition-effect:hover {
-    width: 250px;
-    height: 1px;
-    background-color: #1B2631;
-}
-
-.list-inline li span {
-    font-size: 15px;
+/*...............................................Navigation*/
+.list-items-text{
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 1em;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-a:link {
-    text-decoration: none;
+@media (min-width: 320px) {
+    
 }
 
-/*...................................................................................Hero banner*/
+/*Navigation End*/
 
-.hero-img {
-    height: 50%;
-    width: 100%;
-}
 
-.call-to-action {
-    display: inline-block;
-    width: 100%;
-    height: 80px;
-}
-
-.img-left {}
-
-.call-to-action {
-    display: inline-block;
-}
-
-.cta-links {
-    height: 50px;
-}
-
-.img-effects {
-    opacity: 1.0;
-    filter: alpha(opacity=50);
+.footer-menu{
+    height: 100px;
+    background-color: black;
 }
