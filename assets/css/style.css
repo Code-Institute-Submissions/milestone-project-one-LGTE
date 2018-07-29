@@ -5,28 +5,56 @@
 
 body {
     font-family: "Lato", sans-serif;
-    background-color: #fff;
+    background-color: white;
     margin: 0;
 
 }
 
 /*...............................................Navigation*/
-.list-items-text{
-    color: #000;
-    font-family: "Lato", sans-serif;
-    font-size: 1em;
-    font-weight: 300;
-    text-transform: uppercase;
+.fixed-contactus{
+    height: 70px;
+    width: 100%;
+    background-color: #D81B60;
 }
 
-@media (min-width: 320px) {
+.lgte-logo{
+    height: 70px;
+    width: 180px;
+}
+
+.navbar-header{
+    background-color: inherit;
+}
+
+.burger-icon-text{
+    color: white;
+    padding-top: 2px;
+    padding-top: 0px;
+}
     
-}
-
 /*Navigation End*/
 
 
-.footer-menu{
-    height: 100px;
-    background-color: black;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
