@@ -7,17 +7,17 @@ body {
     font-family: "Lato", sans-serif;
     background-color: white;
     margin: 0;
-
 }
 
-/*...............................................Navigation*/
+/*...............................................Contact us*/
+
 .fixed-contactus{
-    height: 50px;
+    height: auto;
     width: 100%;
     background-color: #607D8B;
     font-size: 10px;
     text-align: center;
-    padding: 3px 2px 2px 2px;
+    padding-top: 3px;
     color: #FFF;
     font-weight: 500;
 }
@@ -27,24 +27,58 @@ body {
     text-align: center;
     padding: 0;
 }
+    
+/*..................................................Contact us End*/
+
+/*...............................................Navigation*/
+
 
 .lgte-logo{
     height: 70px;
-    width: 180px;
+    width: 170px;
 }
 
-.navbar-header{
-    background-color: inherit;
-}
-
-.burger-icon-text{
-    color: white;
-    padding-top: 2px;
-    padding-top: 0px;
-}
+/*........................................................Parallax */
+.parallax-img-container{
+    background-image: url("/assets/images/books.jpg");
     
-/*Navigation End*/
+    width: auto;
+    height: 500px;
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.online-cta{
+    width: 100%;
+    height: 100px;
+    background-color: purple;
+}
+
+.parallax-img-container-donations{
+    background-image: url("/assets/images/book-love.jpg");
+    
+    width: auto;
+    height: 500px;
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-img-container-home-club{
+    background-image: url("/assets/images/volunteers.jpg");
+    
+    width: auto;
+    height: 500px;
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
