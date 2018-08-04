@@ -7,6 +7,7 @@ body {
     font-family: "Century Gothic", sans-serif;
     background-color: white;
     margin: 0;
+    padding-top: 100px; 
 }
 
 /*...............................................Navigation*/
@@ -14,6 +15,66 @@ body {
 .lgte-logo {
     height: 70px;
     width: 170px;
+    
+}
+.search-field {
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    color: #E74C3C;
+    margin-top: 30px;
+}
+
+.icon-search {
+    font-size: 14px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #E74C3C;
+}
+
+.nav-item {
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.nav-item a {
+    color: #000;
+   
+}
+
+.nav-container {
+    height: 100px;
+    background-color: #fff;
+}
+
+.nav-wrapper {
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.btn-default {
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 1px;
+    width: 140px;
+    font-weight: 600;
+    animation-fill-mode: forwards;
+    animation-name: contact-btn;
+    animation-duration: 2s;
+}
+
+@keyframes contact-btn {
+     from {left: 0px;background-color: #000;}
+    to {left: 200px; background-color: #fff;color: #000;}
+}
+
+.btn-default:hover {
+    
 }
 
 /*...............................................Navigation End*/
@@ -23,25 +84,11 @@ body {
 .parallax-effect {
     width: auto;
     height: 500px;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/*.parallax-welcome {
-    background-image: url("/assets/images/books.jpg");
-    
-}
-
-.parallax-donations {
-    background-image: url("/assets/images/book-love.jpg");
-}
-
-.parallax-home-club {
-    background-image: url("/assets/images/volunteers.jpg");
-}*/
 
 .online-cta {
     width: 100%;
@@ -51,18 +98,22 @@ body {
 
 /*........................................................Transition */
 
-.under-line-trans {
+.loading-trans {
     width: 100px;
-    height: 2px;
-    background: #fff;
-    -webkit-transition: width 2s;
-    transition: width 2s;
-    transition-timing-function: ease-in-out;
-
+    height: 100px;
+    background: #000;
+    position: relative;
+    -webkit-animation: loadingbar 3s; 
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards; 
+    animation: loadingbar 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 
-.under-line-trans:hover {
-    width: 300px;
+@keyframes loadingbar {
+    from {left: 0px; }
+    to {left: 500px;  }
 }
 
 
@@ -87,13 +138,14 @@ body {
 .block-yellow {
     padding-top: 0;
     background-color: #E74C3C;
-    width: 100%
+    width: 100%;
+    height: 800px;
 }
 
 .block-green {
     padding-top: 0;
     background-color: #91d4a9;
-    width: 100%
+    width: 100%;
 }
 
 .block-cta1 {
