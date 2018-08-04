@@ -9,36 +9,11 @@ body {
     margin: 0;
 }
 
-/*...............................................Contact us*/
-
-.fixed-contactus {
-    height: auto;
-    width: 100%;
-    background-color: #607D8B;
-    font-size: 10px;
-    text-align: center;
-    padding-top: 3px;
-    color: #FFF;
-    font-weight: 500;
-}
-
-.fixed-contact-icon {
-    padding-right: 5px;
-    text-align: center;
-    padding: 0;
-}
-
-/*..................................................Contact us End*/
-
 /*...............................................Navigation*/
 
 .lgte-logo {
     height: 70px;
     width: 170px;
-}
-
-.nav-wrapper {
-    padding-bottom: 0;
 }
 
 /*...............................................Navigation End*/
