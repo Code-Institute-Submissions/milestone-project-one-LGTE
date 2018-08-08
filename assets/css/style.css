@@ -7,77 +7,123 @@ body {
     font-family: "Century Gothic", sans-serif;
     background-color: white;
     margin: 0;
-    padding-top: 100px; 
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 /*...............................................Navigation*/
 
-.lgte-logo {
+.logo-img {
     height: 70px;
     width: 170px;
+    margin-left: 30px;
+}
+
+.nav-bg-color {
+    background-color: #FFF;
+}
+
+.nav {
+    border-bottom: 1px solid #17202A;
+    height: 80px;
+    line-height: 70px;
+}
+
+.navmenu {
+    margin: 0 40px 0 0;
     
 }
-.search-field {
-    width: 60%;
+
+.navmenu li {
+    display: inline-block;
     text-align: center;
-    border-radius: 8px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.nav-wrapper ul {
+    float: right;
+}
+
+.menulist-items {
+    list-style-type: none;
+    text-align: right;
+}
+
+.menulist-items a {
+    clear: right;
+    text-decoration: none;
+    color: #17202A;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 1em;
+}
+
+span {
     color: #E74C3C;
-    margin-top: 30px;
 }
 
-.icon-search {
-    font-size: 14px;
-    padding-left: 2px;
-    padding-right: 2px;
-    color: #E74C3C;
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
 }
 
-.nav-item {
-    width: 80px;
-    height: 50px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
-    margin: 10px;
+#toggle {
+    display: none;
 }
 
-.nav-item a {
-    color: #000;
-   
-}
 
-.nav-container {
-    height: 100px;
-    background-color: #fff;
-}
-
-.nav-wrapper {
-    margin-top: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-
-.btn-default {
-    border: 1px solid black;
-    height: 50px;
-    border-radius: 1px;
-    width: 140px;
-    font-weight: 600;
-    animation-fill-mode: forwards;
-    animation-name: contact-btn;
-    animation-duration: 2s;
-}
-
-@keyframes contact-btn {
-     from {left: 0px;background-color: #000;}
-    to {left: 200px; background-color: #fff;color: #000;}
-}
-
-.btn-default:hover {
+@media only screen and (max-width: 690px) {
+    label {
+        display: block;
+        cursor: pointer;
+        margin: 0 30px 0 0;
+    }
     
+    .navmenu li {
+        display: block;
+      
+    }
+    .navmenu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        padding-top: 20px;
+    }
+    .navmenu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0 ;
+    }
+    
+    #toggle:checked+.navmenu {
+        display: block;
+    }
+
+
 }
+
 
 /*...............................................Navigation End*/
+
+/*...............................................Content block1*/
+
+.block-white {
+    padding-top: 0;
+    background-color: #fff;
+    height: 800px;
+
+}
+
+#lead-text {
+    font-weight: 700;
+    font-size: 45px;
+}
 
 /*........................................................Parallax */
 
@@ -103,17 +149,21 @@ body {
     height: 100px;
     background: #000;
     position: relative;
-    -webkit-animation: loadingbar 3s; 
+    -webkit-animation: loadingbar 3s;
     -webkit-animation-delay: 2s;
-    -webkit-animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards;
     animation: loadingbar 3s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 
 @keyframes loadingbar {
-    from {left: 0px; }
-    to {left: 500px;  }
+    from {
+        left: 0px;
+    }
+    to {
+        left: 500px;
+    }
 }
 
 
@@ -135,12 +185,7 @@ body {
     width: 100%
 }
 
-.block-yellow {
-    padding-top: 0;
-    background-color: #E74C3C;
-    width: 100%;
-    height: 800px;
-}
+
 
 .block-green {
     padding-top: 0;
