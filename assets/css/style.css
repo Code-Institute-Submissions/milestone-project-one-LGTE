@@ -20,19 +20,24 @@ body {
     margin-left: 30px;
 }
 
+.logo-container {
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
 .nav-bg-color {
-    background-color: #FFF;
+    background-color: #FFF !important;
 }
 
 .nav {
     border-bottom: 1px solid #17202A;
-    height: 80px;
+    height: 100px;
     line-height: 70px;
 }
 
 .navmenu {
-    margin: 0 40px 0 0;
-    
+    margin: 0 50px 0 0;
+
 }
 
 .navmenu li {
@@ -40,15 +45,19 @@ body {
     text-align: center;
     height: 80px;
     font-size: 20px;
+    transition: transform 600ms ease-in-out;
+
 }
 
 .nav-wrapper ul {
     float: right;
+    margin-top: 10px;
 }
 
 .menulist-items {
     list-style-type: none;
     text-align: right;
+    padding-right: 20px;
 }
 
 .menulist-items a {
@@ -78,33 +87,46 @@ label {
 }
 
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 650px) {
     label {
         display: block;
         cursor: pointer;
-        margin: 0 30px 0 0;
+        margin: 10px 35px 0 0;
+        font-size: 3em;
     }
-    
+
+    .logo-img {
+        margin-left: 0px;
+    }
+
+    .menulist-items {
+        padding-right: 0px;
+    }
+
     .navmenu li {
         display: block;
-      
+        background-color: #FFF;
+
     }
     .navmenu {
         text-align: center;
         width: 100%;
         display: none;
+        margin-right: 0;
         padding-top: 20px;
+
     }
     .navmenu a {
         display: block;
         border-bottom: 1px solid #EAEAEB;
-        margin: 0 ;
+        margin: 0;
+        font-size: 16px;
+
     }
-    
+
     #toggle:checked+.navmenu {
         display: block;
     }
-
 
 }
 
@@ -114,16 +136,59 @@ label {
 /*...............................................Content block1*/
 
 .block-white {
-    padding-top: 0;
-    background-color: #fff;
     height: 800px;
+    display: block;
+    /*background-image: url(/assets/images/secondhand-books.jpg);*/
+    background-size: cover;
+    position: relative;
 
 }
 
-#lead-text {
-    font-weight: 700;
-    font-size: 45px;
+.img-pointer {
+    width: 100%;
+    display: block;
+    height: auto;
 }
+
+.text-overlay {
+    height: 300px;
+    width: 100%;
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.overlay-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #CACFD2;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.block-white:hover .overlay-wrapper {
+    height: 50%;
+    opacity: 0.6;
+}
+
+.text {
+    background-color: black;
+    color: #fff;
+    height: auto;
+    width: 300px;
+}
+
 
 /*........................................................Parallax */
 
@@ -145,12 +210,12 @@ label {
 /*........................................................Transition */
 
 .loading-trans {
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 10px;
     background: #000;
     position: relative;
     -webkit-animation: loadingbar 3s;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 1s;
     -webkit-animation-fill-mode: forwards;
     animation: loadingbar 3s;
     animation-delay: 2s;
@@ -162,8 +227,13 @@ label {
         left: 0px;
     }
     to {
-        left: 500px;
+        left: 50%;
     }
+}
+
+.navmenu li:hover {
+    transform: rotate(20deg);
+    color: red;
 }
 
 
