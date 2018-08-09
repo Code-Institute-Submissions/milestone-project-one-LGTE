@@ -4,7 +4,7 @@
 /*................................................................................Colors*/
 
 body {
-    font-family: "Century Gothic", sans-serif;
+    font-family: "Lato", sans-serif;
     background-color: white;
     margin: 0;
     padding-top: 100px;
@@ -87,12 +87,13 @@ label {
 }
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
     label {
         display: block;
         cursor: pointer;
         margin: 10px 35px 0 0;
         font-size: 3em;
+        border-radius: 8px;
     }
 
     .logo-img {
@@ -113,14 +114,14 @@ label {
         width: 100%;
         display: none;
         margin-right: 0;
-        padding-top: 20px;
+        padding-top: 10px;
 
     }
     .navmenu a {
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
