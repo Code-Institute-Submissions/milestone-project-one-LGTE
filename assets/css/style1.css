@@ -4,7 +4,7 @@
 /*................................................................................Colors*/
 
 body {
-    font-family: "Century Gothic",sans-serif;
+    font-family: "Century Gothic", sans-serif;
     background-color: white;
     margin: 0;
     padding-top: 90px;
@@ -17,11 +17,13 @@ body {
 .logo-img {
     height: 70px;
     width: 170px;
+    margin-left: 30px;
+    position: relative;
+    left: 120px;
 }
 
 .logo-container {
     padding-left: 45px;
-   
 }
 
 .nav-bg-color {
@@ -42,7 +44,7 @@ body {
     text-align: center;
     height: 90px;
     margin-right: 10px;
-    font-size: 17px;
+    font-size: 20px;
     transition: transform 600ms ease-in-out;
 
 }
@@ -54,14 +56,13 @@ body {
 .menulist-items {
     list-style-type: none;
     text-align: right;
-    display: inline-block;
 
 }
 
 .menulist-items a {
     clear: right;
     text-decoration: none;
-    color: #2c3e50;
+    color: #17202A;
     margin: 0 10px;
     line-height: 90px;
     font-size: 1em;
@@ -86,47 +87,34 @@ label {
 
 
 @media only screen and (max-width: 768px) {
-
-    body {
-        font-family: "Century Gothic", sans-serif;
-        background-color: white;
-        margin: 0;
-        padding-top: 70px;
-        width: 100%;
-        height: 100%;
+    .logo-img {
+        height: 50px;
+        width: 100px;
+        position: relative;
+        left: 0px;
+        margin-left: 0px;
     }
-
+    
     label {
         display: block;
         cursor: pointer;
-        margin: 0 60px 0 0;
-        font-size: 2em;
+        font-size: 3em;
     }
-
-    .logo-img {
-        margin-left: 10px;
-        height: 50px;
-        width: 100px;
+    
+    .nav {
+        border-bottom: 1px solid black;
+        height: 70px;
+        line-height: 90px;
     }
 
     .menulist-items {
         padding-right: 0px;
     }
 
-    .logo-container {
-        
-        top: -8px;
-    }
-
-    .nav {
-        height: 70px;
-    }
-
-
     .navmenu li {
         display: block;
         background-color: #fff;
-        opacity: 0.80;
+        opacity: 0.90;
         width: 168px;
 
     }
@@ -140,7 +128,6 @@ label {
     }
     .navmenu a {
         display: block;
-        border-bottom: 1px solid #EAEAEB;
         margin: 0;
         font-size: 18px;
     }
@@ -153,75 +140,120 @@ label {
 /*...............................................Navigation End*/
 
 /*...............................................Content blocks*/
-.wrapper {
-    
-}
-.hero-block {
-    background-color: #3498db;
+
+.block-white {
+    background-image: url(/assets/images/book-stack-books.jpg);
     background-size: cover;
+    /*opacity: 0.7;*/
     width: 100%;
     height: 100vh;
+
 }
 
 .header-text-center {
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    
+    font-size: 50px;
+    font-weight: 500;
 }
 
-
-
-.header-text {
-    border: 1px solid #2c3e50;
+.borderline-text {
+    border: 1.618px solid black;
     padding: 15px 15px;
-    margin: 0 auto;
-}
-
-.who_we_are_block {
-    background-color: #8e44ad;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}
-
-.homeworkclub_block {
-    background-color: #e74c3c;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    ;
-}
-
-.donations_block {
-    background-color: #ecf0f1;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    ;
-}
-
-.volunteers_block {
-    background-color: #2980b9;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    ;
-}
-
-.text-box {
+    text-align: center;
     display: flex;
-    font-size: 20px;
-    flex-shrink: 1;
-    height: auto;
+    margin: auto;
 }
 
+.container-fluid {
+    margin-bottom: 15px !important;
+}
+
+
+.image-box {
+    width: auto;
+    height: 500px;
+
+}
+
+.textbox {
+    height: 100vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-container {
+    height: 382px;
+    width: 618px;
+    background-color: #000;
+    opacity: 0.2;
+}
+
+.section-text {
+    font-size: 18px;
+}
+
+/*............................................................block purple*/
+
+.block-purple {
+    background-image: url(/assets/images/book-love.jpg);
+    opacity: 0.7;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.block-green {
+    background-image: url(/assets/images/volunteers.jpg);
+    opacity: 0.7;
+    width: 100%;
+    height: 500px;
+}
+
+.thumbnail {
+    width: 350px;
+}
+
+.bg-bg-div {
+    height: 100vh;
+    background-color: purple;
+    width: 100%;
+    opacity: 1.618;
+}
+
+.who-we-are {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+/*.......................................................Buttons*/
+
+.btn-default {
+    background-color: #fff;
+    color: #000;
+    width: 200px;
+    border: 1.618px solid #000;
+    border-radius: 0;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+
+.btn-default:hover {
+    background-color: #000;
+    color: #fff;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 0;
+}
 
 /*.......................................................Footer*/
 
 .block-footer {
-    background-color: #7f8c8d;
+    padding-top: 0;
+    background-color: #808B96;
     width: 100%;
     height: 200px;
 }
