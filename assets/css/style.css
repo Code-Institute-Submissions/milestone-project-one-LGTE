@@ -190,6 +190,7 @@ label {
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    margin-top: 2px;
 }
 
 .tab_formats a {
@@ -238,6 +239,7 @@ label {
     height: auto;
     padding-bottom: 15px;
     display: flex;
+    margin-top: 2px;
 }
 
 .features_wrapper {
@@ -263,14 +265,15 @@ label {
 .icon_format {
     color: #fff;
     padding-right: 5px;
+    font-size: 14px;
 }
 
 .lgte_features {
     color: #ecf0f1;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     text-align: left;
-    line-height: 18px;
+    line-height: 20px;
 }
 
 .lgte_features h3 {
@@ -278,35 +281,65 @@ label {
     color: #f39c12;
 }
 
+
+
 /*.............................Next block*/
 
-.homeworkclub_block {
-    background-color: #e74c3c;
+.profile_block {
+    background-color: #f5f5f5;
     background-size: cover;
     width: 100%;
-    height: 100vh;
-}
-
-.donations_block {
-    background-color: #ecf0f1;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    ;
-}
-
-.volunteers_block {
-    background-color: #2980b9;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}
-
-.text-box {
-    display: flex;
-    font-size: 20px;
-    flex-shrink: 1;
     height: auto;
+    padding-bottom: 15px;
+    display: flex;
+    margin-top: 2px;
+    border: 1px solid #000;
+}
+
+.profile_wrapper {
+    margin: 0px 20px 0 15px;
+    height: auto;
+    width: 100%;
+    line-height: 25px;
+}
+
+.profile_img {
+    display: flex;
+    justify-content: center;
+}
+
+.profile_text {
+    text-align: left;
+    line-height: inherit;
+}
+
+.profile_text h3 {
+    text-align: center;
+}
+
+.profile_text h6 {
+    text-align: center;
+}
+
+.img_wrap {
+    margin: auto;
+}
+
+.circle_img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 40%;
+    margin-bottom: 12px;
+}
+
+/*..............................Next block*/
+
+.contact_block {
+    background-color: #f39c12;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
 }
 
 
