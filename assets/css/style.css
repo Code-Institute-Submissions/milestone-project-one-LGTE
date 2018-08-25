@@ -71,7 +71,7 @@ span {
     color: #E74C3C;
 }
 
-label {
+.nav-wrapper>label {
     margin: 0 45px 0 0;
     font-size: 26px;
     line-height: 70px;
@@ -96,7 +96,7 @@ label {
         height: 100%;
     }
 
-    label {
+    .nav-wrapper>label {
         display: block;
         cursor: pointer;
         margin: 0 60px 0 0;
@@ -239,7 +239,7 @@ label {
     height: auto;
     padding-bottom: 15px;
     display: flex;
-    margin-top: 2px;
+    
 }
 
 .features_wrapper {
@@ -249,15 +249,16 @@ label {
 .btn-default {
     border: 2px solid #fff;
     height: 35px;
-    width: 85px;
+    width: 90px;
     background-color: transparent;
     color: #f39c12;
     font-weight: 700;
     border-radius: 0;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .btn-default:hover {
+    background-color: inherit;
     color: #000;
     border: 1px solid #fff;
 }
@@ -290,9 +291,8 @@ label {
     background-size: cover;
     width: 100%;
     height: auto;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     display: flex;
-    margin-top: 2px;
     border: 1px solid #000;
 }
 
@@ -336,11 +336,39 @@ label {
 /*..............................Next block*/
 
 .contact_block {
-    background-color: #f39c12;
+    background-color: #31708f;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: auto;
+    ;
 }
+
+.contact_wrapper {
+    margin: 20px 20px;
+}
+
+.contact_form {
+    font-size: 1em;
+}
+
+.form-control {
+   border-radius: 0;
+}
+
+.contact_btn {
+    float: right;
+    height: 50px;
+    width: 150px;
+    font-size: 1em;
+    color: inherit;
+    
+}
+
+.contact_btn:hover{
+    background-color: inherit;
+}
+
+
 
 
 /*.......................................................Footer*/
