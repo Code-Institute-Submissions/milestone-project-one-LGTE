@@ -29,8 +29,8 @@ body {
 }
 
 .nav {
-    height: 100px;
-    line-height: 90px;
+    height: 90px;
+    line-height: 70px;
 }
 
 .navmenu {
@@ -106,7 +106,7 @@ span {
     .logo-img {
         margin-left: 10px;
         height: 50px;
-        width: 100px;
+        width: 105px;
     }
 
     .menulist-items {
@@ -115,7 +115,7 @@ span {
 
     .logo-container {
 
-        top: -8px;
+        /* top: -8px;*/
     }
 
     .nav {
@@ -135,14 +135,13 @@ span {
         text-align: center;
         display: none;
         margin-right: 10px;
-        padding-top: 10px;
-
+        /* padding-top: 10px;*/
     }
     .navmenu a {
         display: block;
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     #toggle:checked+.navmenu {
@@ -156,8 +155,6 @@ span {
 
 .hero-block {
 
-    background-image: url(/assets/images/adults.jpeg);
-    opacity: 0.6;
     background-color: #3498db;
     background-size: cover;
     width: 100%;
@@ -177,7 +174,8 @@ span {
 }
 
 .main_header_text {
-    color: #1228d4;
+    text-align: center;
+    color: #333;
     padding: 15px 15px;
     margin: 0 auto;
     font-weight: 500;
@@ -212,34 +210,35 @@ span {
     }
     .main_header_text {
         font-size: 2.5em;
+
     }
 }
 
 .fold_tab_one {
-    background-color: #f39c12;
+    background-color: #f5f5f5;
 
 }
 
 .fold_tab_two {
-    background-color: #f39c12;
+    background-color: #eee;
 
 }
 
 .fold_tab_three {
-    background-color: #f39c12;
+    background-color: #f5f5f5;
 
 }
 
 /*..............................New block*/
 
 .who_we_are_block {
-    background-color: #34495e;
+    background-color: #eee;
     background-size: cover;
     width: 100%;
     height: auto;
     padding-bottom: 15px;
     display: flex;
-    
+
 }
 
 .features_wrapper {
@@ -247,30 +246,31 @@ span {
 }
 
 .btn-default {
-    border: 2px solid #fff;
+    border: 2px solid #001;
     height: 35px;
     width: 90px;
     background-color: transparent;
-    color: #f39c12;
+    color: #001;
     font-weight: 700;
     border-radius: 0;
     font-size: 12px;
+    float: right;
 }
 
 .btn-default:hover {
     background-color: inherit;
-    color: #000;
-    border: 1px solid #fff;
+    color: #001;
+    border: 1px solid #001;
 }
 
 .icon_format {
-    color: #fff;
+    color: #34495e;
     padding-right: 5px;
     font-size: 14px;
 }
 
 .lgte_features {
-    color: #ecf0f1;
+    color: #001;
     font-size: 12px;
     font-weight: 400;
     text-align: left;
@@ -279,7 +279,8 @@ span {
 
 .lgte_features h3 {
     font-size: 1.8em;
-    color: #f39c12;
+    font-weight: 700;
+    color: #34495e;
 }
 
 
@@ -293,7 +294,7 @@ span {
     height: auto;
     padding-bottom: 30px;
     display: flex;
-    border: 1px solid #000;
+    border: 1px solid #eee;
 }
 
 .profile_wrapper {
@@ -336,7 +337,7 @@ span {
 /*..............................Next block*/
 
 .contact_block {
-    background-color: #31708f;
+    background-color: #eee;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -352,7 +353,7 @@ span {
 }
 
 .form-control {
-   border-radius: 0;
+    border-radius: 0;
 }
 
 .contact_btn {
@@ -361,10 +362,10 @@ span {
     width: 150px;
     font-size: 1em;
     color: inherit;
-    
+
 }
 
-.contact_btn:hover{
+.contact_btn:hover {
     background-color: inherit;
 }
 
@@ -373,10 +374,20 @@ span {
 
 /*.......................................................Footer*/
 
-.block-footer {
-    background-color: #20475C;
+.block_footer {
+    background-color: #2f5597;
     width: 100%;
-    height: 200px;
+    height: auto;
+    color: #000;
+    text-align: center;
+    text-decoration: line-through;
+
+}
+
+.footer_wrapper {
+
+
+    margin: 40px 40px;
 }
 
 
