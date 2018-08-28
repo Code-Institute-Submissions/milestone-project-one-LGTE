@@ -34,7 +34,7 @@ body {
 }
 
 .navmenu {
-    margin: 0 90px 0 0;
+    margin: 0 75px 0 0;
 }
 
 .navmenu li {
@@ -61,10 +61,10 @@ body {
 .menulist-items a {
     clear: right;
     text-decoration: none;
-    color: #2c3e50;
+    color: #000;
     margin: 0 10px;
     line-height: 90px;
-    font-size: 1em;
+    font-size: 18px;
 }
 
 span {
@@ -154,8 +154,6 @@ span {
 /*...............................................Content blocks*/
 
 .hero-block {
-
-    background-color: #3498db;
     background-size: cover;
     width: 100%;
     height: 585px;
@@ -182,24 +180,7 @@ span {
     text-shadow: 1px 1px 1px #000;
 }
 
-.tab_formats {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    margin-top: 2px;
-}
 
-.tab_formats a {
-    color: #2c3e50;
-    text-decoration: none;
-}
-
-.tab_formats a:hover {
-    color: #fff;
-
-}
 
 /*.....................................media query*/
 
@@ -215,24 +196,43 @@ span {
 }
 
 .fold_tab_one {
-    background-color: #f5f5f5;
-
+    background-color: #fff;
+    border-bottom: 1px solid #000;
 }
 
 .fold_tab_two {
-    background-color: #eee;
-
+    background-color: #fff;
+    border-bottom: 1px solid #000;
 }
 
 .fold_tab_three {
-    background-color: #f5f5f5;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+.tab_formats {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 2px;
+}
+
+.tab_formats a {
+    color: #000;
+    text-decoration: none;
+}
+
+.tab_formats a:hover {
+    color: #27ae60;
 
 }
 
 /*..............................New block*/
 
 .who_we_are_block {
-    background-color: #eee;
+
     background-size: cover;
     width: 100%;
     height: auto;
@@ -251,7 +251,6 @@ span {
     width: 90px;
     background-color: transparent;
     color: #001;
-    font-weight: 700;
     border-radius: 0;
     font-size: 12px;
     float: right;
@@ -264,23 +263,24 @@ span {
 }
 
 .icon_format {
-    color: #34495e;
-    padding-right: 5px;
-    font-size: 14px;
+    color: #000;
+    padding-right: 3px;
+    font-size: 18px;
 }
 
 .lgte_features {
     color: #001;
-    font-size: 12px;
+    font-size: 22px;
     font-weight: 400;
     text-align: left;
-    line-height: 20px;
+    line-height: 35px;
+    margin: 0 0 30px;
 }
 
 .lgte_features h3 {
     font-size: 1.8em;
-    font-weight: 700;
-    color: #34495e;
+   
+
 }
 
 
@@ -288,7 +288,7 @@ span {
 /*.............................Next block*/
 
 .profile_block {
-    background-color: #f5f5f5;
+
     background-size: cover;
     width: 100%;
     height: auto;
@@ -314,13 +314,16 @@ span {
     line-height: inherit;
 }
 
-.profile_text h3 {
-    text-align: center;
+.profile_text p {
+    font-size: 23px;
 }
 
-.profile_text h6 {
+.profile_wrapper h2 {
     text-align: center;
+    font-size: 45px;
 }
+
+
 
 .img_wrap {
     margin: auto;
@@ -337,7 +340,7 @@ span {
 /*..............................Next block*/
 
 .contact_block {
-    background-color: #eee;
+
     background-size: cover;
     width: 100%;
     height: auto;
@@ -350,6 +353,11 @@ span {
 
 .contact_form {
     font-size: 1em;
+}
+
+.contact_form h2 {
+    font-size: 45px;
+    text-align: center;
 }
 
 .form-control {
@@ -375,7 +383,7 @@ span {
 /*.......................................................Footer*/
 
 .block_footer {
-    background-color: #2f5597;
+
     width: 100%;
     height: auto;
     color: #000;
