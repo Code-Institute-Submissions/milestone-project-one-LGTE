@@ -68,7 +68,7 @@ body {
 }
 
 span {
-    color: #E74C3C;
+    color: #27ae60;
 }
 
 .nav-wrapper>label {
@@ -147,6 +147,7 @@ span {
     #toggle:checked+.navmenu {
         display: block;
     }
+   
 }
 
 /*...............................................Navigation End*/
@@ -222,6 +223,7 @@ span {
 .tab_formats a {
     color: #000;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .tab_formats a:hover {
@@ -263,14 +265,14 @@ span {
 }
 
 .icon_format {
-    color: #000;
+    color: #27ae60;
     padding-right: 3px;
     font-size: 18px;
 }
 
 .lgte_features {
     color: #001;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     text-align: left;
     line-height: 35px;
@@ -279,7 +281,7 @@ span {
 
 .lgte_features h3 {
     font-size: 1.8em;
-   
+
 
 }
 
@@ -315,12 +317,12 @@ span {
 }
 
 .profile_text p {
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .profile_wrapper h2 {
     text-align: center;
-    font-size: 45px;
+    font-size: 32px;
 }
 
 
@@ -356,7 +358,7 @@ span {
 }
 
 .contact_form h2 {
-    font-size: 45px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -377,7 +379,17 @@ span {
     background-color: inherit;
 }
 
+.form-control {
+    border: 1px solid #000;
+}
 
+
+@media only screen and (max-width: 425px) {
+    .contact_btn {
+        width: 100%;
+    }
+    
+}
 
 
 /*.......................................................Footer*/
@@ -435,7 +447,7 @@ span {
 
 .navmenu li:hover {
     transform: rotate(20deg);
-    color: red;
+
 }
 
 
