@@ -206,17 +206,21 @@ span {
 
 .fold_tab_one {
     background-color: #fff;
-    border-bottom: 1px solid #000;
+   
 }
 
 .fold_tab_two {
     background-color: #fff;
-    border-bottom: 1px solid #000;
+    
 }
 
 .fold_tab_three {
     background-color: #fff;
-    border-bottom: 1px solid #000;
+}
+
+.fold_tab_three img {
+    width: 30px;
+    height: 30px;
 }
 
 .tab_formats {
@@ -226,6 +230,8 @@ span {
     justify-content: center;
     padding-top: 15px;
     margin-top: 2px;
+    
+   
 }
 
 .tab_formats a {
@@ -409,7 +415,9 @@ span {
     }
     
 }
-
+.contact_details {
+    text-align: center;
+}
 
 /*.......................................................Footer*/
 
