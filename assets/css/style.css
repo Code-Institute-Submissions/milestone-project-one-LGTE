@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
 
-/*................................................................................Colors*/
+/*................................................Mise*/
 
 body {
     font-family: "Century Gothic", sans-serif;
@@ -12,7 +12,12 @@ body {
     height: 100%;
 }
 
-/*...............................................Navigation*/
+.volunteer_info_heading {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*................................................Navigation*/
 
 .logo-img {
     height: 70px;
@@ -36,7 +41,7 @@ body {
 .navmenu {
     margin: 0 75px 0 0;
     perspective: 150px;
-    
+
 }
 
 .navmenu li {
@@ -52,7 +57,7 @@ body {
 .navmenu li:hover {
     text-shadow: 3px 3px #dcdde1;
     transform: rotateX(20deg);
-    
+
 }
 
 .nav-wrapper ul {
@@ -76,7 +81,7 @@ body {
 }
 
 span {
-    color: #27ae60;
+    color: #e74c3c;
 }
 
 .nav-wrapper>label {
@@ -92,6 +97,7 @@ span {
     display: none;
 }
 
+/*................................................Media query*/
 
 @media only screen and (max-width: 768px) {
 
@@ -109,6 +115,7 @@ span {
         cursor: pointer;
         margin: 0 60px 0 0;
         font-size: 2em;
+        color: #e74c3c;
     }
 
     .logo-img {
@@ -134,7 +141,7 @@ span {
     .navmenu li {
         display: block;
         background-color: #fff;
-        opacity: 0.80;
+        opacity: 0.95;
         width: 168px;
 
     }
@@ -143,7 +150,7 @@ span {
         text-align: center;
         display: none;
         margin-right: 10px;
-        
+
     }
     .navmenu a {
         display: block;
@@ -155,14 +162,17 @@ span {
     #toggle:checked+.navmenu {
         display: block;
     }
-   
+
 }
 
-/*...............................................Navigation End*/
+/*................................................End Media query*/
 
-/*...............................................Content blocks*/
+/*................................................Navigation End*/
+
+/*................................................Content*/
 
 .hero-block {
+    background-image: url(/assets/images/home-img.jpeg);
     background-size: cover;
     width: 100%;
     height: 585px;
@@ -189,29 +199,14 @@ span {
     text-shadow: 1px 1px 1px #000;
 }
 
-
-
-/*.....................................media query*/
-
-@media (min-width: 768px) {
-    .fold_tabs {
-        display: flex;
-
-    }
-    .main_header_text {
-        font-size: 2.5em;
-
-    }
-}
+/*................................................Tabs*/
 
 .fold_tab_one {
     background-color: #fff;
-   
 }
 
 .fold_tab_two {
     background-color: #fff;
-    
 }
 
 .fold_tab_three {
@@ -230,8 +225,8 @@ span {
     justify-content: center;
     padding-top: 15px;
     margin-top: 2px;
-    
-   
+    padding-bottom: 3px;
+    height: 65px;
 }
 
 .tab_formats a {
@@ -241,20 +236,38 @@ span {
 }
 
 .tab_formats a:hover {
-    color: #27ae60;
-
+    color: #c0392b;
 }
 
-/*..............................New block*/
+/*................................................Tabs Media query*/
+
+@media (min-width: 768px) {
+    .fold_tabs {
+        display: flex;
+        border: 1px solid #ecf0f1;
+        padding-bottom: 3px;
+        height: 65px;
+    }
+    .main_header_text {
+        font-size: 2.5em;
+
+    }
+}
+
+/*................................................End Tabs Media query*/
+
+/*................................................who_we_are*/
 
 .who_we_are_block {
-
-    background-size: cover;
+    background-color: #ecf0f1;
     width: 100%;
     height: auto;
     padding-bottom: 15px;
     display: flex;
+}
 
+.who_we_are_p_text {
+    margin: 15px 0 10px;
 }
 
 .features_wrapper {
@@ -262,26 +275,30 @@ span {
 }
 
 .btn-default {
-    border: 2px solid #001;
+    border: 1px solid #001;
     height: 35px;
     width: 90px;
     background-color: transparent;
     color: #001;
     border-radius: 0;
     font-size: 12px;
-    float: right;
+    float: left;
 }
 
 .btn-default:hover {
     background-color: inherit;
     color: #001;
-    border: 1px solid #001;
+    border: 1.5px solid #001;
+}
+
+.btn-default a {
+    color: #e74c3c;
 }
 
 .icon_format {
-    color: #27ae60;
+    color: #e74c3c;
     padding-right: 3px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .lgte_features {
@@ -298,15 +315,12 @@ span {
 }
 
 .feature_img {
-   
+    width: 100%;
 }
 
-
-
-/*.............................Next block*/
+/*................................................Profile */
 
 .profile_block {
-
     background-size: cover;
     width: 100%;
     height: auto;
@@ -341,8 +355,6 @@ span {
     font-size: 32px;
 }
 
-
-
 .img_wrap {
     margin: auto;
 }
@@ -354,28 +366,31 @@ span {
     margin-top: 40%;
     margin-bottom: 12px;
 }
+
+/*................................................Profile Media query*/
+
 @media only screen and (max-width: 425px) {
     .profile_text>h3 {
         text-align: center;
     }
-     .profile_text>h6 {
+    .profile_text>h6 {
         text-align: center;
     }
-    
-    
 }
-/*..............................Next block*/
+
+/*................................................End Profile Media query*/
+
+/*................................................Contact*/
 
 .contact_block {
-
-    background-size: cover;
+    background-color: #e74c3c;
     width: 100%;
     height: auto;
     ;
 }
 
 .contact_wrapper {
-    margin: 20px 20px;
+    margin: 10px 20%;
 }
 
 .contact_form {
@@ -397,7 +412,7 @@ span {
     width: 150px;
     font-size: 1em;
     color: inherit;
-
+    margin-bottom: 15px;
 }
 
 .contact_btn:hover {
@@ -408,25 +423,41 @@ span {
     border: 1px solid #dcdde1;
 }
 
+.contact_details {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+/*................................................Contact Media query*/
 
 @media only screen and (max-width: 425px) {
     .contact_btn {
         width: 100%;
     }
-    
-}
-.contact_details {
-    text-align: center;
+
 }
 
-/*.......................................................Footer*/
+@media only screen and (max-width: 768px) {
+    .contact_wrapper {
+        margin: 10px 30px;
+    }
+
+}
+
+/*................................................End Contact Media query*/
+
+/*................................................Footer*/
 
 .block_footer {
     width: 100%;
     height: auto;
     color: #2f3640;
     text-align: center;
-    background-color: #f5f6fa;
+    background-color: #ecf0f1;
 
 }
 
@@ -442,42 +473,4 @@ span {
     margin-right: 10px;
 }
 
-
-/*........................................................Parallax */
-
-.parallax-effect {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/*........................................................Transition */
-
-.loading-trans {
-    width: 10px;
-    height: 10px;
-    background: #000;
-    position: relative;
-    animation: loadingbar 3s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-    -webkit-animation: loadingbar 3s;
-    -webkit-animation-delay: 1s;
-    -webkit-animation-fill-mode: forwards;
-}
-
-@keyframes loadingbar {
-    from {
-        left: 0px;
-    }
-    to {
-        left: 50%;
-    }
-}
-
-
-
-
-/*........................................................Transition End */
+/*................................................End*/
