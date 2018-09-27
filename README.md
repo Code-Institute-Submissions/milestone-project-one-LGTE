@@ -1,6 +1,6 @@
 # First Milestone Project.
 
-The result of my first project can be seen [here](https://github.com/mrndhlovu/milestone-project-one-LGTE).
+*The result of my first project can be seen [HERE](https://mrndhlovu.github.io/milestone-project-one-LGTE/).*
 
 
 The idea behind this project was to create a static website for a charity organization here in Limerick called Limerick’s Gateway to Education. The idea of this project is to show case what I have learnt and apply it to a real-world scenario. 
