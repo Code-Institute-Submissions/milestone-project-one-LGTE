@@ -32,7 +32,7 @@ body {
 }
 
 .contact-hero-img {
-    background-image: url(https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) !important;
+    background-image: url(https://images.pexels.com/photos/1132351/pexels-photo-1132351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) !important;
 }
 
 .bg-parallax {
@@ -40,7 +40,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.85;
+    opacity: 0.8;
 }
 
 /*................................................Navigation*/
@@ -198,9 +198,8 @@ span {
 /*................................................Content*/
 
 .hero-block {
-    background-image: url(https://images.pexels.com/photos/51342/books-education-school-literature-51342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/01/19/15/book-748904_960_720.jpg);
     background-size: cover;
-    
     width: 100%;
     height: 585px;
 
