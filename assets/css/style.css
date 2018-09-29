@@ -1,8 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nanum+Gothic|PT+Sans|Poppins:300');
 /*................................................Mise */
 
 body {
-    font-family: "Century Gothic", sans-serif;
+    font-family: 'PT Sans', sans-serif;
     background-color: white;
     margin: 0;
     padding-top: 90px;

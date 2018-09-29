@@ -1,28 +1,28 @@
 # First Milestone Project.
 
-*The result of my first project can be seen [HERE](https://mrndhlovu.github.io/milestone-project-one-LGTE/).*
+## The results of this project can be seen [HERE](https://mrndhlovu.github.io/milestone-project-one-LGTE/).*
 
 
-The idea behind this project was to create a static website for a charity organization here in Limerick called Limerick’s Gateway to Education. The idea of this project is to show case what I have learnt and apply it to a real-world scenario. 
+The idea behind this project was to create a static website for a charity organisation here in Limerick called Limerick’s Gateway to Education. The idea of this project is to show case what I have learnt and apply it to a real-world scenario. 
 
 ___
 
 ## Brief
 
-Before I started with the project I contacted and had a meeting with the CEO of Limerick’ Gateway to Education(LGTE), presented my idea of redesigning the website. 
-I made sure I take down some notes on what she would love to see on the new site and was given permission to use content already on the old website wish made things a bit easier for me because did not have to spend much of my time writing content.
+Before starting the project, contacted and had a meeting with the CEO of Limerick’ Gateway to Education(LGTE), presented my idea of redesigning the website. 
+Made sure to take down some notes on what she would love to see on the new site and was given permission to use content already on the old website wish made things a bit easier for me because did not have to spend much time writing content.
 
-The main aim of this website is to show the good work that this charity organization is doing.
-Show how people can contribute with donations or volunteer their time for a good cause.
-There are certain projects that take place which help the local community of Limerick and my aim was to highlight this as well.
-There is also an eCommerce side of the organization where they sell second hand books, but I chose to leave that part out as part of this project but planning to implement that by linking a WordPress subdirectory to this static site soon.
+* The main aim of this website is to show the good work that this charity organisation is doing.
+* Show how people can contribute with donations or volunteer their time for a good cause.
+* There are projects that take place which help the local community of Limerick and the aim was to highlight this as well.
+* There is also an eCommerce side of the organization where they sell second hand books, but chose to leave that part out as part of this project but planning to implement that by linking a WordPress subdirectory to this static site soon.
 
 ___
 
 ### Initial Set Up of the Website
 
-First thing I had to do was to go through the ideas I needed to present on the website. Did a rough pencil sketch of what the site will look like before I attempted on making a mockup using Balsamiq. 
-I then used Adobe Photoshop to design a more colorful wireframe of my website. This turned out to be a good idea as it helped me pick the right colors and fonts for my CSS.
+First had to go through the ideas needed to present on the website. Did a rough pencil sketch of what the site will look like before attempting on making a mockup. 
+Then used Adobe Photoshop to design a more colorful wireframe of the website. This turned out to be a good idea as it helped in picking the right colors and fonts for CSS.
 
 ___
 
@@ -34,18 +34,19 @@ ___
 * [Flatuicolors.com](flatuicolors.com) (for color coordination)
 * [Stack overflow](https://stackoverflow.com/), [w3schools](https://www.w3schools.com/), [Mozilla Development Networks](https://developer.mozilla.org/en-US/), [YouTube](youtube.com) (for code research)
 * Microsoft Edge, Chrome and Firefox development tools. (Great for making small adjustments to CSS before applying changes to the main CSS code.)
-* HTML (did my best to use semantic HTML and meaningful class names)
+* HTML (Used semantic HTML and meaningful class names)
 * CSS
-* [Bootstrap](https://maxcdn.bootstrapcdn.com) – this was used mainly in setting up the ‘Burger navigation menu’, creating the containers that would hold the content, setting up the form fields and buttons. I had to edit some of the bootstrap classes just to tweak the code to fit my ideas.
-* [Cloud9](https://c9.io/login) (mainly for my code editing)
-* [GitHub](https://github.com/) (great for saving a different version of my code, which was handy because there was a lot of times I had to revert to my old code as I was not happy with what I was doing so had to reset a couple of times.)
+* [Validator.w3.org](https://validator.w3.org/) (Used to validate HTML and CSS code)
+* [Bootstrap](https://maxcdn.bootstrapcdn.com) – Used mainly in setting up the ‘Burger navigation menu’, creating the containers that would hold the content, setting up the form fields,glyphicons and buttons. Editted some of the bootstrap classes just to tweak the code to fit personal ideas.
+* [Cloud9](https://c9.io/login) (mainly for code editing and some debugging)
+* [GitHub](https://github.com/) 
 
  ___
  
 #### Libraries Used
 
 ```
-The following are all the libraries I imported for use in this project
+The following are all the libraries imported for use in this project
 
 Bootstrap v 3.3.7] - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
@@ -57,19 +58,16 @@ ___
 
 ## File List
 
-As I mentioned before, most of the content on the website is copied from the old LGTE website. This is because I’m just redesigning the look of the site. 
-
 * Index.html (This is the landing page of the Site)
 ```
-On this page I tried to present a brief of what the whole site is all about. 
-I used the read more buttons to link to specific topics of the page and not cram a lot of text on one page. 
+Presented a brief of what the whole site is all about. 
+Used the read more buttons to link to specific topics of the page and not cram a lot of text on one page. 
 From this page, a user can access any page on the website.
 ```
 
 * About.html 
 ```
 This page tells of the history of Limerick’s Gateway to Education
-I must say I think in the future I will be adding more images to the page.
 
 ```
 
@@ -103,21 +101,39 @@ ___
 
 ### CSS File Setup
 
-I tried to separate my code according to the layout of my index.html page. Below ever section of html I was editing I applied the responsive media queries I needed.
-I initial tried to use Google fonts but later changed my mind and used Windows Century Gothic. I chose this font because I thought it was easier to read and looks smooth.
+* Separated code according to the layout of the index.html page. 
+* Below ever section of css edits, applied the responsive media queries needed.
+* Imported Google fonts and used "PT Sans', sans-serif" for all content.
 
 ___
 
 ### Bugs to Fix
 
-Contact form no functional yet
-Have issues with the navigation items though when it comes to tablet view.
+* Contact form no functional yet
+* Have issues with the navigation items though when it comes to tablet view.
+* Parallax effect doesn't seem to work on mobile view
 
 ## Testing
 
-* To test the website i used the google Chrome, Firefox and Microsoft edge developer tools, but mostly Chrome and tried to to pay attention to the reponsiveness of all devices available, that is from all Mobile devices, tablets, laptop and desktop displays. 
+* Used the google Chrome, Firefox and Microsoft edge developer tools, but mostly Chrome and tried to pay attention to the reponsiveness of all devices available, that is from all mobile devices, tablets, laptop and desktop displays. 
 
-* I liked the mobile view of the website the most
+* Mobile view seems to look better than desktop view.
+
+*  Git commits worked great for saving a different version of my code, which was handy because there was a lot of times because had to revert to old code as I was not happy with what I was doing so had to reset a couple of times.
+
+* 
+
+
+___
+## Credits
+
+* [DevTips](https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ)
+* [LearnWebCode](https://www.youtube.com/watch?v=k32voqQhODc)
+* [Traversy Media](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=801s)
+
+
+
+
 
 
 
