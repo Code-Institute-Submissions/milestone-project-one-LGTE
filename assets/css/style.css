@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
-
 
 /*................................................Mise*/
 
@@ -172,7 +170,7 @@ span {
 /*................................................Content*/
 
 .hero-block {
-    background-image: url(/assets/images/home-img.jpeg);
+    background-image: url(assets/images/home-img.jpeg);
     background-size: cover;
     width: 100%;
     height: 585px;
