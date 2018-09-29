@@ -48,10 +48,14 @@ ___
 ```
 The following are all the libraries imported for use in this project
 
-Bootstrap v 3.3.7] - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
+** Bootstrap v 3.3.7] - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
-jQuery v 3.3.1 -  
+
+** jQuery v 3.3.1 -  
 https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+
+** Google fonts - 
+https://fonts.googleapis.com/css?family=Montserrat|Nanum+Gothic|PT+Sans|Poppins:300'
 
 ```
 ___
