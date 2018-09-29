@@ -15,6 +15,34 @@ body {
     text-align: center;
 }
 
+.about-hero-img {
+    background-image: url(https://images.pexels.com/photos/1059114/pexels-photo-1059114.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) !important;
+}
+
+.volunteer-hero-img {
+    background-image: url(https://images.pexels.com/photos/1120343/pexels-photo-1120343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) !important;
+}
+
+.donation-hero-img {
+    background-image: url(http://2.bp.blogspot.com/-QKyx8jRmWc8/UxeCpZS3beI/AAAAAAAAy7A/gOT412I3UhY/s1600/donations+for+spring+cleaning.jpg) !important;
+}
+
+.homeworkclub-hero-img {
+    background-image: url(https://horizonsmontessori.ie/msh-content/uploads/2015/05/Horizons-After-School-Care-Homework-Club-Terenure-3.jpg) !important;
+}
+
+.contact-hero-img {
+    background-image: url(https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) !important;
+}
+
+.bg-parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+}
+
 /*................................................Navigation*/
 
 .logo-img {
