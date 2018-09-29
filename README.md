@@ -111,5 +111,14 @@ ___
 ### Bugs to Fix
 
 Contact form no functional yet
+Have issues with the navigation items though when it comes to tablet view.
+
+## Testing
+
+* To test the website i used the google Chrome, Firefox and Microsoft edge developer tools, but mostly Chrome and tried to to pay attention to the reponsiveness of all devices available, that is from all Mobile devices, tablets, laptop and desktop displays. 
+
+* I liked the mobile view of the website the most
+
+
 
 
