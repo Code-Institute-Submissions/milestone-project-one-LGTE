@@ -170,7 +170,7 @@ span {
 /*................................................Content*/
 
 .hero-block {
-    background-image: url(assets/images/home-img.jpeg);
+    background-image: url(/assets/images/home-img.jpeg);
     background-size: cover;
     width: 100%;
     height: 585px;
