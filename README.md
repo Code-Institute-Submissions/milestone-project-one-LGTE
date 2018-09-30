@@ -1,6 +1,17 @@
 # First Milestone Project.
 
-## The results of this project can be seen [HERE](https://mrndhlovu.github.io/milestone-project-one-LGTE/).*
+```
+# Author
+___
+
+## Mduduzi Ndhlovu
+
+* [GitHub](https://github.com/mrndhlovu)
+* [Linkedin](https://www.linkedin.com/in/mduduzi-ndhlovu-750068167/)
+
+```
+
+## The results of this project can be seen [HERE](https://mrndhlovu.github.io/milestone-project-one-LGTE/).
 
 
 The idea behind this project was to create a static website for a charity organisation here in Limerick called Limerick’s Gateway to Education. The idea of this project is to show case what I have learnt and apply it to a real-world scenario. 
@@ -46,7 +57,7 @@ ___
 #### Libraries Used
 
 ```
-The following are all the libraries imported for use in this project
+The following are the libraries imported for use in this project
 
 ** Bootstrap v 3.3.7] - https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js
@@ -108,6 +119,7 @@ ___
 * Separated code according to the layout of the index.html page. 
 * Below ever section of css edits, applied the responsive media queries needed.
 * Imported Google fonts and used "PT Sans', sans-serif" for all content.
+* Background image hotlinks: Credit to pexel.com
 
 ___
 
@@ -116,6 +128,7 @@ ___
 * Contact form no functional yet
 * Have issues with the navigation items though when it comes to tablet view.
 * Parallax effect doesn't seem to work on mobile view
+* Only have the facebook icon linked to a reall facebook page.
 
 ## Testing
 
@@ -123,10 +136,7 @@ ___
 
 * Mobile view seems to look better than desktop view.
 
-*  Git commits worked great for saving a different version of my code, which was handy because there was a lot of times because had to revert to old code as I was not happy with what I was doing so had to reset a couple of times.
-
-* 
-
+* Git commits worked great for saving a different version of my code, which was handy because there was a lot of times because had to revert to old code as I was not happy with what I was doing so had to reset a couple of times.
 
 ___
 ## Credits
