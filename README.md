@@ -1,8 +1,6 @@
 # First Milestone Project.
 
-
 # Author
-___
 
 ## Mduduzi Ndhlovu
 
@@ -16,7 +14,7 @@ ___
 
 The idea behind this project was to create a static website for a charity organisation here in Limerick called Limerick’s Gateway to Education. The idea of this project is to show case what I have learnt and apply it to a real-world scenario. 
 
-___
+
 
 ## Brief
 
