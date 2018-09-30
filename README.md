@@ -16,7 +16,7 @@ The idea behind this project was to create a static website for a charity organi
 
 
 
-## Brief
+## UX Brief
 
 Before starting the project, contacted and had a meeting with the CEO of Limerick’ Gateway to Education(LGTE), presented my idea of redesigning the website. 
 Made sure to take down some notes on what she would love to see on the new site and was given permission to use content already on the old website wish made things a bit easier for me because did not have to spend much time writing content.
