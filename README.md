@@ -1,6 +1,6 @@
 # First Milestone Project.
 
-```
+
 # Author
 ___
 
@@ -9,7 +9,7 @@ ___
 * [GitHub](https://github.com/mrndhlovu)
 * [Linkedin](https://www.linkedin.com/in/mduduzi-ndhlovu-750068167/)
 
-```
+
 
 ## The results of this project can be seen [HERE](https://mrndhlovu.github.io/milestone-project-one-LGTE/).
 
