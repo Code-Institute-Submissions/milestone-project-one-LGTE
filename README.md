@@ -25,6 +25,7 @@ Made sure to take down some notes on what she would love to see on the new site 
 * Show how people can contribute with donations or volunteer their time for a good cause.
 * There are projects that take place which help the local community of Limerick and the aim was to highlight this as well.
 * There is also an eCommerce side of the organization where they sell second hand books, but chose to leave that part out as part of this project but planning to implement that by linking a WordPress subdirectory to this static site soon.
+* Assets folder contains the different stages of the site devlopment and ideas gone through before final presentation.
 
 ___
 
@@ -39,6 +40,7 @@ ___
 
 * [Balsamiq](https://balsamiq.com/) (used for wireframing)
 * Photoshop (for robust wireframing)
+* [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg) (Google chrome plugin for making entire website snap shoots)
 * [Pexel.com](pexel.com) and [pixabay.com](pixabay.com) (for royalty free images)
 * [Flatuicolors.com](flatuicolors.com) (for color coordination)
 * [Stack overflow](https://stackoverflow.com/), [w3schools](https://www.w3schools.com/), [Mozilla Development Networks](https://developer.mozilla.org/en-US/), [YouTube](youtube.com) (for code research)
@@ -112,7 +114,8 @@ This folder containers sub-folders 'css,images and icons' and keeps all the imag
 
 * project-ux-plan folder
 ```
-This folder contains the mockups and ux project plan taken through this project
+This folder contains the mockups and ux project plan done through this project. 
+It includes photoshop mockups,balsamiq mockups and website snap shoots done during the making of the website, showing different ideas before decideding on the final presentation.
 
 ```
 

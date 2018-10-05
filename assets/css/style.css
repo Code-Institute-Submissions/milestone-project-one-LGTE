@@ -222,7 +222,7 @@ span {
 
 .main_header_text {
     text-align: center;
-    color: #59b4ff;
+    color: #434d60;
     padding: 15px 15px;
     margin: 0 auto;
     font-weight: 500;
@@ -232,15 +232,15 @@ span {
 /*................................................Tabs*/
 
 .fold_tab_one {
-    background-color: #fff;
+    background-color: #8dc63f;
 }
 
 .fold_tab_two {
-    background-color: #fff;
+    background-color: #8dc63f;
 }
 
 .fold_tab_three {
-    background-color: #fff;
+    background-color: #8dc63f;
 }
 
 .fold_tab_three img {
@@ -319,10 +319,10 @@ span {
 }
 
 .btn-default:hover {
-    background-color: inherit;
+    background-color: #434d60;
     border: 2px solid #001;
-    color : #000000;
-    font-size: 11px;
+    color : #8dc63f;
+    font-size: 14px;
 }
 /* editing Bootstrap class code End */
 .icon_format {
@@ -445,7 +445,8 @@ span {
 }
 
 .contact_btn:hover {
-    background-color: inherit;
+    background-color: #434d60;
+    font-size: 14px;
 }
 
 .form-control {
