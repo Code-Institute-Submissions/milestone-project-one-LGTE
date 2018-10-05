@@ -52,7 +52,7 @@ ___
 
  ___
  
-#### Libraries Used
+#### Libraries Imported and Used 
 
 ```
 The following are the libraries imported for use in this project
