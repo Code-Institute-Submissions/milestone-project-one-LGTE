@@ -148,9 +148,11 @@ ___
 ___
 ## Credits
 
+* [Code Institute](https://www.codeinstitute.net/)
 * [DevTips](https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ)
 * [LearnWebCode](https://www.youtube.com/watch?v=k32voqQhODc)
 * [Traversy Media](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=801s)
+
 
 
 
