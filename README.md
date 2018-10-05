@@ -110,6 +110,12 @@ This page saves to explain how donations are put to use and hopefully get people
 This folder containers sub-folders 'css,images and icons' and keeps all the images and icons used on the project as well as the css file "style.css".
 ```
 
+* project-ux-plan folder
+```
+This folder contains the mockups and ux project plan taken through this project
+
+```
+
 ___
 
 ### CSS File Setup
