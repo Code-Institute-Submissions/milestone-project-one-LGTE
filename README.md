@@ -39,7 +39,7 @@ ___
 ### Technologies used in this Project
 
 * [Balsamiq](https://balsamiq.com/) (used for wireframing)
-* Photoshop (for robust wireframing)
+* Adobe Photoshop (for robust wireframing)
 * [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg) (Google chrome plugin for making entire website snap shoots)
 * [Pexel.com](pexel.com) and [pixabay.com](pixabay.com) (for royalty free images)
 * [Flatuicolors.com](flatuicolors.com) (for color coordination)
@@ -135,11 +135,11 @@ ___
 * Contact form no functional yet
 * Have issues with the navigation items though when it comes to tablet view.
 * Parallax effect doesn't seem to work on mobile view
-* Only have the facebook icon linked to a reall facebook page.
+* Only have the facebook icon linked to a real facebook page.
 
 ## Testing
 
-* Used the google Chrome, Firefox and Microsoft edge developer tools, but mostly Chrome and tried to pay attention to the reponsiveness of all devices available, that is from all mobile devices, tablets, laptop and desktop displays. 
+* Used the google Chrome,Opera, Firefox and Microsoft edge developer tools, but mostly Chrome and tried to pay attention to the reponsiveness of all devices available, that is from all mobile devices, tablets, laptop and desktop displays. 
 
 * Mobile view seems to look better than desktop view.
 
