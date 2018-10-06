@@ -130,7 +130,20 @@ ___
 
 ___
 
-### Bugs to Fix
+# Project Work, Bugs and Depolyment
+
+The project was worked on using Cloud9 IDE and was pushed on to GitHub Pages at 80% from finishing. 
+Did this to be sure there won't be any issues when it gets to 100% which was a good idea because the following happened: 
+
+
+* Reliased Cloud9 was fixing some of my broken links and invalid HTML code when the project reviewed from the Cloud9 Run link. 
+* Issues came when code was pushed to GitHub pages which picked up all the invalid HTML and was showing a different result from what was expected. 
+* From a session with my tutor, realised code had not been validated.
+* Using [validator.w3.org](https://validator.w3.org/) , code was scanned and pointed errors were fixed.
+
+
+
+### Other Bugs.
 
 * Contact form no functional yet
 * Have issues with the navigation items though when it comes to tablet view.
